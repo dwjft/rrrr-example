@@ -1,0 +1,32 @@
+h1, h2, h3, p, a {
+  padding: 0.5rem 0;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p, a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.rrrr__example {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#FDFDFE, #EBEFF0);
+}
+
+.rrrr__example__container {
+  width: 800px;
+  height: 100%;
+}
+.rrrr__example__container > * {
+  margin-bottom: 32px;
+}
